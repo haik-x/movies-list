@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,900');
+
+body {
+    margin-top: 20px;
+    background-image: url("../assets/movie.jpg");
+    color: white;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.card {
+    box-shadow: 0 20px 27px 0 rgb(0 0 0 / 5%);
+}
+
+/*.table-nowrap .table td,
+.table-nowrap .table th {
+    white-space: nowrap;
+}*/
+#movie-display{
+    background-color: rgba(56,56,56,0.95);
+}
+.synopsis > div {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    width: 100%; 
+    max-width: 250px;
+}
+
+.table>:not(caption)>*>* {
+    padding: 0.75rem 1.25rem;
+    border-bottom-width: 1px;
+}
+
+table th {
+    font-weight: 600;
+    background-color: rgba(56,56,56,0.98) !important;
+    color: whitesmoke;
+}
+
+table td{
+    color: whitesmoke;
+}
+
+#no-data {
+    text-align: center;
+}
+
+.btn-red {
+    background-color: red;
+    color: white;
+}
+
+.btn-red:hover {
+    background-color: #1338be;
+}

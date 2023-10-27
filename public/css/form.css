@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,900');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-image: url("../assets/movie.jpg");
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.btn-primary{
+    width: 50%;
+    height: 40px;
+    border: none;
+    border-radius: 50px;
+    margin-top: 20px;
+    background: #E50914;
+}
+
+form{
+    border-radius: 10px;
+    width: 70%;
+    background-color: rgba(56,56,56,0.95);
+    padding: 50px;
+    color: white;
+}
+
+.form-control{
+    color: rgba(0,0,0,.87);
+    border-bottom-color: rgba(0,0,0,.42);
+    box-shadow: none;
+    border: none;
+    border-bottom: 1px solid;
+    border-radius: 4px 4px 0 0;
+}
+
+
+h4{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+}  
+
+#account-help{
+    margin-top: 30px;
+    text-align: center;
+}
+
+@media (max-width: 760px) {
+    form {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 300px) {
+    form {
+        width: 100%;
+    }
+
+    .btn-primary{
+        font-size: x-small;
+    }
+}
